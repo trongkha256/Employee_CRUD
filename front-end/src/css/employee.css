@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(134, 158, 184);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 25px 0;
+    width: 100%;
+    border: 2px solid black;
+}
+.lable{
+    text-align: center;
+   width: 500px !important;
+   padding: 25px 0;
+   border-radius: 10px;
+}
+.lable input{
+    border-radius: 10px;
+    text-align: center;
+}
+.lable button{
+    display: inline;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.container a,
+.container button{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 25px ;
+    padding: 0 15px;
+    background-color: aliceblue;
+    color: rgb(23, 107, 202);
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.container a:hover{
+    color: black;
+}
+.container button{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    width: 380px;
+ }
+ .container button:hover{
+    color: rgb(23, 107, 202);
+ }
+ li{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .main{
+     margin-top: 50px;
+     font-weight: 600;
+ }
+.main button{
+     font-size: 15px;
+
+ }
+ .inputvalue{
+     margin: 50px 0;
+ }
+.add button{
+    font-size: 25px;
+    width: 380px
+}
+ /* table, th, td {
+    border: 1px solid black;
+  } */
+  /* table{
+      background-color: #fff;
+  } */

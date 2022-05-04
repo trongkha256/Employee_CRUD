@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(134, 158, 184);
+    position: relative;
+}
+.login-form{
+    margin: auto;
+    margin-top: 15%;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.lb1{
+    margin: 50px;
+}
+.btn{
+    margin-top: 25px;
+
+}
+.btn input{
+    background-color: aliceblue;
+    width: 100px;
+    border-radius: 25px;
+    cursor: pointer;
+}
